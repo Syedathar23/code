@@ -22,17 +22,13 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start:docker": "pm2 start server.js && npm start",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "build:digitalocean": "npm install --force && react-scripts build",
-        "server:dev": "nodemon server.js",
-        "server:prod": "node server.js",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "pm2 restart server.js"
-    },
+        "start": "node server.js",           // <-- production start (Render will use this)
+        "dev": "nodemon server.js",          // <-- for local development
+        "build": "react-scripts build",      // <-- only needed if you're also serving React from backend
+        "test": "react-scripts test",        // optional, can be removed if unused
+        "eject": "react-scripts eject"       // optional, only for React
+    }
+
     "eslintConfig": {
         "extends": [
             "react-app",
