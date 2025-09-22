@@ -9,5 +9,5 @@ export const initSocket = async () => {
     withCredentials: true,
   };
 
-  return io(process.env.REACT_APP_BACKEND_URL, options);
+  return io("https://code-3-9e3z.onrender.com/", options);
 };
