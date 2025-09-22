@@ -2,7 +2,7 @@ import React, {useState, useRef, useEffect} from 'react';
 import toast from 'react-hot-toast';
 import Client from '../components/Client';
 import Editor from '../components/Editor'
-import {language, cmtheme} from '../../src/atoms';
+import {language, cmtheme} from '../atoms';
 import {useRecoilState} from 'recoil';
 import ACTIONS from '../actions/Actions';
 import {initSocket} from '../socket';

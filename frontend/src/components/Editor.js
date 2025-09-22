@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from 'react';
-import {language, cmtheme} from '../../src/atoms';
+import {language, cmtheme} from '../atoms';
 import {useRecoilValue} from 'recoil';
 import ACTIONS from '../actions/Actions';
 
