@@ -22,11 +22,11 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "node server.js",           // <-- production start (Render will use this)
-        "dev": "nodemon server.js",          // <-- for local development
-        "build": "react-scripts build",      // <-- only needed if you're also serving React from backend
-        "test": "react-scripts test",        // optional, can be removed if unused
-        "eject": "react-scripts eject"       // optional, only for React
+        "start": "node server.js",           
+        "dev": "nodemon server.js",          
+        "build": "react-scripts build",      
+        "test": "react-scripts test",        
+        "eject": "react-scripts eject"       
     }
 
     "eslintConfig": {
