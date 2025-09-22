@@ -6,7 +6,7 @@ const path = require('path');
 const { Server } = require('socket.io');
 const cors = require('cors');
 
-const ACTIONS = require('./src/actions/Actions');
+const ACTIONS = require('./frontend/src/actions/Actions');
 
 // Enable CORS for Netlify frontend
 app.use(cors({
